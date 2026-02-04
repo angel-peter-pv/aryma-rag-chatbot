@@ -104,7 +104,7 @@ Memory is scoped to a single browser session and resets automatically when the s
 *demo screenshot 2*
 
 ### Demonstration video of the chatbot
-![click to watch demo](https://youtu.be/yi-bf9DPaVI)
+[click to watch demo](https://youtu.be/yi-bf9DPaVI)
 
 
 
