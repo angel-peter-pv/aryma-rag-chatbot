@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+openai>=1.0.0
+faiss
+numpy
+python-dotenv>=1.0.0
+langgraph
+streamlit
