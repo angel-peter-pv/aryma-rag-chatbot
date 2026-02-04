@@ -95,6 +95,11 @@ Each user session maintains:
 Memory is scoped to a single browser session and resets automatically when the session ends.
 
 
+## Demo 
+![img_demo1](images/demo1)
+![img_demo2](images/demo2)
+
+
 
 
 
