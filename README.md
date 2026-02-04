@@ -95,14 +95,16 @@ Each user session maintains:
 Memory is scoped to a single browser session and resets automatically when the session ends.
 
 
-## Demo 
-![img_demo1](images/demo1.png)
+## Demonstration 
+![img demo1](images/demo1.png)
 *demo screenshot 1*
 
 
-![img_demo2](images/demo2.png)
+![img demo2](images/demo2.png)
 *demo screenshot 2*
 
+### Demonstration video of the chatbot
+![click to watch demo](https://youtu.be/yi-bf9DPaVI)
 
 
 
