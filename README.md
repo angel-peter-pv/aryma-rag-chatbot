@@ -81,6 +81,7 @@ To ensure the chatbot reflects website updates automatically:
     - New pages are detected
     - Updated pages are re embedded
     - Unchanged pages are skipped
+  
 This avoids unnecessary reprocessing while ensuring the vector index remains up to date.
 
 
@@ -89,6 +90,7 @@ This avoids unnecessary reprocessing while ensuring the vector index remains up 
 Short term conversational memory is implemented using:
 - LangGraph state for RAG context
 - Streamlit session_state for session persistence
+
 For each interaction, the system tracks the latest user query, retrieved documents, generated answer, source references, and a sliding window of recent chat messages. Only the most recent 10 messages are passed to the LLM to handle follow up questions and conversational references, which prevents unnecessary context growth and avoids exceeding the model's context window. Memory is scoped to a single browser session and resets automatically when the session ends.
 
 
