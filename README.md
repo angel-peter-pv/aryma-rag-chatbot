@@ -96,7 +96,7 @@ For each interaction, the system tracks the latest user query, retrieved documen
 
 ## Design Decisions
 
-To reduce hallucinations, the model is instructed to answer only using the retrieved website content. Clear system and user prompts are used to prevent the model from making assumptions. If the required information is not present in the content, the assistant responds with "I don't know based on the website." The model temperature is set to 0 to ensure consistent, factual, and non creative responses. 
+To reduce hallucinations, the model is instructed to answer only using the retrieved website content. Clear system and user prompts are used to prevent the model from making assumptions. If the required information is not present in the content, the assistant responds with "I don't know based on the website." The model temperature is set to 0 to ensure consistent, factual, and non creative responses. Each response also includes source links from the retrieved documents to provide transparency and allow users to verify the information.
 
 Retrieved website content and conversational history are stored separately in the state. Only the retrieved website content is treated as the source of truth for answering questions, while conversation history is used only to understand follow up references. This separation helps prevent the model from treating past conversation as factual knowledge and reduces the risk of hallucinations.
 
